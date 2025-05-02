@@ -1,14 +1,7 @@
 fileFormatVersion: 2
 guid: 65ae3472a7902644e90b8cf71a64feea
-AssetOrigin:
-  serializedVersion: 1
-  productId: 248419
-  packageName: Office Chair Pack
-  packageVersion: 1.0
-  assetPath: Assets/3d Objects/Office Chair Pack 1.0/Chair1/Chair1.fbx
-  uploadId: 585454
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -35,32 +28,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cadeira
-    second: {fileID: 2800000, guid: 45585b9abb3d9f14f98bdda6b071dbbe, type: 3}
+    second: {fileID: 2800000, guid: 7b7e4163c7aca404cbf234253437fb84, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal012_1K_Color
-    second: {fileID: 2800000, guid: da8ead739b3ad5541bf1b00515be6a48, type: 3}
+    second: {fileID: 2800000, guid: 6f69c65ea5d01694d95d22e07f74b7a5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal041A_1K_Color
-    second: {fileID: 2800000, guid: a0dcb86dac33f324e95b4de432e192bd, type: 3}
+    second: {fileID: 2800000, guid: 227124ca2d2203b4cadfff352dc9d5de, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal041A_1K_Metalness
-    second: {fileID: 2800000, guid: 458a7e6dc1cac914c96e007e7a39ca7d, type: 3}
+    second: {fileID: 2800000, guid: c96780df82c04954086aa7c85de196f7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal041A_1K_Roughness
-    second: {fileID: 2800000, guid: e59105bcab00cfd43a32b2bf49694130, type: 3}
+    second: {fileID: 2800000, guid: b1f31758453dae448b63c5188f273716, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Plastic006_1K_Color
-    second: {fileID: 2800000, guid: 33030105a6f91824294e8f601e7cf9e7, type: 3}
+    second: {fileID: 2800000, guid: 3cdd92bec904fdf4b8d904795c4b5dc9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -73,6 +66,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -95,7 +90,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -123,7 +117,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -145,7 +138,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.3
+    globalScale: 0.003
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -156,9 +149,15 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248419
+  packageName: Office Chair Pack
+  packageVersion: 1.0
+  assetPath: Assets/ChairPack/Office Chair Pack 1.0/Chair1/Chair1.fbx
+  uploadId: 585454

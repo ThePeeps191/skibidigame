@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49350566f5870524386184d126947a14
+guid: 6f69c65ea5d01694d95d22e07f74b7a5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -126,5 +126,5 @@ AssetOrigin:
   productId: 248419
   packageName: Office Chair Pack
   packageVersion: 1.0
-  assetPath: Assets/ChairPack/Office Chair Pack 1.0/PreviewImages/3.png
+  assetPath: Assets/ChairPack/Office Chair Pack 1.0/Chair1/Textures/Metal012_1K_Color.png
   uploadId: 585454
