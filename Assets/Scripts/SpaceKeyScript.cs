@@ -14,7 +14,7 @@ public class TitleScreenScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SceneChanger.Instance.ChangeScene("SampleScene");
+            SceneChanger.Instance.ChangeScene("Zone 1");
         }
     }
 }
