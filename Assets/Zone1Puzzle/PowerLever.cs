@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PowerSwitch : MonoBehaviour
+public class PowerLever : MonoBehaviour
 {
     public int switchID;
     public PowerPanel panel;
