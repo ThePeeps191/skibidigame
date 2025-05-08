@@ -9,6 +9,10 @@ public class PuzzleSwitch : MonoBehaviour
     private bool isPlayerNear = false;
     private bool isActivated = false;
 
+    public bool isTouching = false;
+    public float maxDistance = 2;
+    public Collider playerCollider;
+
     void Update()
     {
         if (isPlayerNear && !isActivated && Input.GetKeyDown(KeyCode.E))

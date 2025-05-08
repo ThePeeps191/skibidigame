@@ -1360,6 +1360,9 @@ MonoBehaviour:
   switchID: 0
   panel: {fileID: 0}
   indicatorRenderer: {fileID: 0}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 0}
 --- !u!1 &449229515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,6 +2010,9 @@ MonoBehaviour:
   switchID: 0
   panel: {fileID: 0}
   indicatorRenderer: {fileID: 0}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 0}
 --- !u!114 &719732633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2022,6 +2028,9 @@ MonoBehaviour:
   switchID: 0
   panel: {fileID: 0}
   indicatorRenderer: {fileID: 0}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 0}
 --- !u!1001 &726464142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6752,6 +6761,9 @@ MonoBehaviour:
   switchID: 2
   panel: {fileID: 1530001227}
   indicatorRenderer: {fileID: 1137993476}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 1275062796}
 --- !u!33 &633938063886375603
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8068,6 +8080,9 @@ MonoBehaviour:
   switchID: 3
   panel: {fileID: 1530001227}
   indicatorRenderer: {fileID: 369134946}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 1275062796}
 --- !u!1 &4303083901468835026
 GameObject:
   m_ObjectHideFlags: 0
@@ -8421,6 +8436,9 @@ MonoBehaviour:
   switchID: 1
   panel: {fileID: 1530001227}
   indicatorRenderer: {fileID: 1325668013}
+  isTouching: 0
+  maxDistance: 2
+  playerCollider: {fileID: 1275062796}
 --- !u!1001 &5495800005410186818
 PrefabInstance:
   m_ObjectHideFlags: 0
