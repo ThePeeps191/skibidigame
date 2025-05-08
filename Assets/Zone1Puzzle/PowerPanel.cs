@@ -1,30 +1,27 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class PowerPanel : MonoBehaviour
 {
-    public int[] correctOrder = { 1, 3, 2 };
-    private List<int> currentInput = new List<int>();
-    public GameObject exitDoor;
+    public GameObject doorToOpen;
+    private bool switch1 = false;
+    private bool switch2 = false;
+    private bool switch3 = false;
 
-    public void RegisterSwitchPress(int id)
+    public void RegisterSwitchPress(int switchID)
     {
-        currentInput.Add(id);
-
-        for (int i = 0; i < currentInput.Count; i++)
+        switch (switchID)
         {
-            if (currentInput[i] != correctOrder[i])
-            {
-                Debug.Log("Wrong order! Reset.");
-                currentInput.Clear();
-                return;
-            }
+            case 1: switch1 = true; break;
+            case 2: switch2 = true; break;
+            case 3: switch3 = true; break;
         }
 
-        if (currentInput.Count == correctOrder.Length)
+        Debug.Log("Switch states: " + switch1 + ", " + switch2 + ", " + switch3);
+
+        if (switch1 && switch2 && switch3)
         {
-            Debug.Log("Correct! Door opens.");
-            exitDoor.transform.position += new Vector3(0, 3, 0);
+            Debug.Log("All switches activated. Opening door.");
+            doorToOpen.SetActive(false);
         }
     }
 }

@@ -9,6 +9,9 @@ public class Door : MonoBehaviour
     private Quaternion openRotation;
     private bool isOpen = false;
     private bool isAnimating = false;
+    public bool isTouching = false;
+    public float maxDistance = 2;
+    public Collider playerCollider;
 
     void Start()
     {
@@ -18,7 +21,8 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !isAnimating)
+        DetectCollider(playerCollider);
+        if (Input.GetKeyDown(KeyCode.E) && !isAnimating && isTouching)
         {
             isOpen = !isOpen;
             isAnimating = true;
@@ -34,6 +38,19 @@ public class Door : MonoBehaviour
                 transform.rotation = targetRotation;
                 isAnimating = false;
             }
+        }
+    }
+
+    void DetectCollider(Collider other)
+    {
+        // other object is close
+        if (Vector3.Distance(other.transform.position, this.transform.position) < maxDistance)
+        {
+            isTouching = true; // they are touching AND close
+        }
+        else
+        {
+            isTouching = false;
         }
     }
 }
