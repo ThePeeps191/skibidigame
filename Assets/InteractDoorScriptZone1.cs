@@ -9,7 +9,9 @@ public class InteractDoorScriptZone1 : MonoBehaviour
     public bool isTouching = false;
     public float maxDistance = 2;
     public Collider playerCollider;
-    public Collider doorCollider;
+    public Collider doorCollider1;
+    public Collider doorCollider2;
+    public Collider doorCollider3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,7 +24,7 @@ public class InteractDoorScriptZone1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DetectCollider(playerCollider, doorCollider);
+        isTouching = DetectCollider(playerCollider, doorCollider1) || DetectCollider(playerCollider, doorCollider2) || DetectCollider(playerCollider, doorCollider3);
         if (isTouching)
         {
             if (id == 2)
@@ -40,16 +42,16 @@ public class InteractDoorScriptZone1 : MonoBehaviour
         }
     }
 
-    void DetectCollider(Collider playr, Collider other)
+    bool DetectCollider(Collider playr, Collider other)
     {
         // other object is close
         if (Vector3.Distance(playr.transform.position, other.transform.position) < maxDistance)
         {
-            isTouching = true; // they are touching AND close
+            return true; // they are touching AND close
         }
         else
         {
-            isTouching = false;
+            return false;
         }
     }
 }
