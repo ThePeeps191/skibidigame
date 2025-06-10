@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000290, guid: 466641fab9f9630488500abf00c1cbb2, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: a59c6bfe7c689fb4293f0defcc8c82dc, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 4acbc81a52df4bc4b93c3a47f633f75b, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -2047,6 +2047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211501541}
   - component: {fileID: 1211501540}
+  - component: {fileID: 1211501542}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2134,6 +2135,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1211501542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211501539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1236610543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3351,8 +3375,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1331313662873344, guid: 04233d19d5893ef47b80d081a6822bdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1785137322}
   m_SourcePrefab: {fileID: 100100000, guid: 04233d19d5893ef47b80d081a6822bdd, type: 3}
+--- !u!1 &1785137321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1331313662873344, guid: 04233d19d5893ef47b80d081a6822bdd, type: 3}
+  m_PrefabInstance: {fileID: 1785137320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1785137322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785137321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1787919611
 PrefabInstance:
   m_ObjectHideFlags: 0
