@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UnityFactorySceneHDRP/Scene_Factory/FactorySceneSample.unity
     guid: e7dd89f0a3cf136458205b39021b1d5a
+  - enabled: 1
+    path: Assets/Scenes/Zone 2.unity
+    guid: 1b01fee542e2f3b46916873404f36220
+  - enabled: 1
+    path: Assets/Scenes/Zone 3.unity
+    guid: 88b57fe4c076c5149bffb0a257a20ee1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
